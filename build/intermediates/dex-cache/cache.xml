@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-2fa3dd83fe0ee9c81ae83793ec5e699925ef987c.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-8d24caae3b55c02ce58b1f394c6006f852f3d4ac.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-f03e7955667189f78750f5e451604f703abe7d55.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-8bf856b6c48751518ca111ed5af20b933ef811a3.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-b8a2307fc4159748c4273d90f94d23e3a840ab02.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-46b6b936dbb185db4ebc2b41e2fbd8ac3879a525.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-819d2b12dfdea9e4192f5f52793f436b9955670d.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-3d4e78d21b4d32c351f763cdad52f5572c75644c.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-0ecdeb9b53d7b6bdabab5a21b06f6f1b9ab8ea26.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-f85ffde91218c1578680032e05c5916b32e83b99.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-a264ecdd450563932bda32cfefb6ada6e5e97694.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-1aed377663a34332ba0902b1bae5c496ba41f2fe.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-3b4428526d1950e79330c816ff83b269f1395a38.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-30ce2fbba7571bd85489f545eb6581769e5cb807.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-c7904dc1622f04c2468e54948fd2d538cacecda3.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-f9e6106ac5c92ae219b2c54818a7f7ccec68ebbb.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-becab5c51b3e1090e273a5057c7be64a8f1b588a.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-0031b0dcfc7006156c28a7f46c4bcba5aa618428.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-9d3f57531dc8a908de6de6647ac633e1fad730be.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-6a524609ac6ba0a13f9a60903f0a21dc5af3b345.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-e7522e33215098726d3eaf99a9a3c6521ff9246f.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-4efd14b72925ea0b5e3c0a9b08cfecbc71c17d5c.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/gson-2.2.4-3fc7c355abcdad7fcb7bb1cbc12f953ab7308331.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-094e56b28af56ed7c2b26dba49d9551dcd47ab29.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-a14e9bd5b82980bb1fba1f8134f7f1c79e97b3e6.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-60c9e7d019da0a376311976274fd70ca6ab5b3ab.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-6f6f2baa5759e37a443680d1ddebd831e8c893fd.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-4461c020149610da51fafae0ffa40fa535e8e34f.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-98a5a8a0e15c11f0702d0148d6a121da4e12f093.jar" />
+    </item>
+    <item
+        jar="/Users/RichardYan/Documents/androidtest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/RichardYan/Documents/androidtest/app/build/intermediates/pre-dexed/debug/classes-0c4770e6cccb57e103c151bcb74d6f239a028443.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,279 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".dealMainActivityFragment"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/mainLevel">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:gravity="center"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip" >
+
+            <TableRow>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <ImageView
+                        android:layout_width="500px"
+                        android:layout_height="250px"
+                        android:id="@+id/image1"
+                        android:src="@drawable/c1"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="500px"
+                        android:layout_height="250px"
+                        android:id="@+id/text1"
+                        android:text="@string/dealNRewardHeader"
+                        android:textStyle="bold"
+                        android:textColor="#ff00ff"
+                        android:textColorHighlight="#000000"
+                        android:textIsSelectable="false"
+                        android:textSize="18sp"/>
+                </LinearLayout>
+            </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="1200px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+                <Button android:id="@+id/previous"
+                    android:layout_width="1000px"
+                    android:layout_height="400px"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/restaurants"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp"
+                    android:alpha="125"
+                    android:background="@drawable/smallrestaurantoverlay">
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/restaurantsLayout"
+                android:orientation="vertical"
+                android:layout_width="1200px"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dp">
+                <Button android:id="@+id/restaurantButton"
+                    android:layout_width="1200px"
+                    android:layout_height="200px"
+                    android:drawableLeft="@drawable/tea3"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/button_effect"
+                    android:paddingBottom="5dp"
+                    android:height="300px"
+                    android:typeface="sans"
+                    android:text="@string/restaurants"
+                    android:textAllCaps="false"
+                    android:textSize="35sp"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="250px"
+                    android:id="@+id/imageButton"
+                    android:src="@drawable/restaurants"
+                    android:focusableInTouchMode="true"/>
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="1200px"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="5dip">
+                <Button android:id="@+id/retailersButton"
+                    android:layout_width="1200px"
+                    android:layout_height="500px"
+                    android:drawableLeft="@drawable/shoppingbag"
+                    android:background="@drawable/button_effect"
+                    android:paddingBottom="5dp"
+                    android:height="200px"
+                    android:typeface="sans"
+                    android:text="@string/retailers"
+                    android:textAllCaps="false"
+                    android:textSize="35sp"
+                    android:textColor="#FFFFFF"/>
+                <!--<ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="250px"
+                    android:id="@+id/imageButton2"
+                    android:src="@drawable/retailers"
+                    android:focusableInTouchMode="true"/>-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="1200px"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="5dip">
+                <Button android:id="@+id/servicesButton"
+                    android:layout_width="1200px"
+                    android:layout_height="200px"
+                    android:drawableLeft="@drawable/services"
+                    android:background="@drawable/button_effect"
+                    android:paddingBottom="5dp"
+                    android:height="200px"
+                    android:typeface="sans"
+                    android:text="@string/services"
+                    android:textAllCaps="false"
+                    android:textSize="35sp"
+                    android:textColor="#FFFFFF"/>
+                <!--<ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="250px"
+                    android:id="@+id/imageButton3"
+                    android:src="@drawable/services"/> -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="1200px"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="5dip">
+                <Button android:id="@+id/otherButton"
+                    android:layout_width="1200px"
+                    android:layout_height="200px"
+                    android:drawableLeft="@drawable/ticket"
+                    android:background="@drawable/button_effect"
+                    android:paddingBottom="5dp"
+                    android:height="200px"
+                    android:typeface="sans"
+                    android:text="@string/other"
+                    android:textAllCaps="false"
+                    android:textSize="35sp"
+                    android:textColor="#FFFFFF"/>
+                <!--<ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="250px"
+                    android:id="@+id/imageButton4"
+                    android:src="@drawable/other"/>-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="5dip"
+                android:paddingTop="10dip">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="250px"
+                    android:id="@+id/imageButton5"
+                    android:src="@drawable/rewards"/>
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:gravity="center"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip" >
+
+            <TableRow>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+                    <ImageButton
+                        android:layout_width="300px"
+                        android:layout_height="250px"
+                        android:background="@drawable/share"
+                        android:id="@+id/icon1"/>
+                        <!--android:src="@drawable/share"/>-->
+                    </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+                    <ImageButton
+                        android:layout_width="300px"
+                        android:layout_height="250px"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerInside"
+                        android:background="@drawable/money"
+                        android:id="@+id/icon2"/>
+                    </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+                    <ImageButton
+                        android:layout_width="300px"
+                        android:layout_height="250px"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/wallet"
+                        android:id="@+id/icon3"/>
+                </LinearLayout>
+                <!--<LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <ImageButton
+                        android:layout_width="300px"
+                        android:layout_height="300px"
+                        android:id="@+id/icon4"
+                        android:src="@drawable/homeicon"/>
+                </LinearLayout>-->
+
+            </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

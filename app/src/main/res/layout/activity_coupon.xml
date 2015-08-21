@@ -1,0 +1,414 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="dnr.capitalone.com.dealandreward.CouponActivity"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/header"
+            android:background="#EEEEEE">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+                <ImageView
+                    android:layout_width="500px"
+                    android:layout_height="250px"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/image1"
+                    android:src="@drawable/cap1logotransparent">
+                </ImageView>
+                <TextView
+                    android:id="@+id/headerText"
+                    android:layout_width="500px"
+                    android:layout_height="320px"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:textSize="13sp"
+                    android:textColor="#000000"
+                    android:text="Welcome Back Richard!\nQuick Tip!\nTap your profile pic to open the menu!">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="140px"
+            android:id="@+id/mainLevel"
+            android:weightSum="1">
+
+        <!--<LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout> -->
+
+            <LinearLayout
+                android:id="@+id/tgifButton"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:layout_gravity="center_horizontal"
+                android:background="#FAFAFA">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="T.G.I. Fridays"
+                    android:textColor="#000000"
+                    android:textSize="8pt"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/restauranticon25"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="$5 Off"
+                    android:textColor="#000000"
+                    android:textSize="8pt"
+                    android:gravity="center|right"
+                    android:paddingRight="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chilisButton"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:layout_gravity="center_horizontal"
+                android:background="#E6E6E6">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Chili's"
+                    android:textColor="#000000"
+                    android:textSize="8pt"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/restauranticon25"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="$5 Off"
+                    android:textColor="#000000"
+                    android:textSize="8pt"
+                    android:gravity="center|right"
+                    android:paddingRight="10dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/applebeesButton"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:layout_gravity="center_horizontal"
+                android:background="#FAFAFA">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Applebee's"
+                    android:textColor="#000000"
+                    android:textSize="8pt"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/restauranticon25"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="$5 Off"
+                    android:textColor="#000000"
+                    android:textSize="8pt"
+                    android:gravity="center|right"
+                    android:paddingRight="10dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/cuisineOfIndiaButton"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:layout_gravity="center_horizontal"
+                android:background="#E6E6E6">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Cuisine Of India"
+                    android:textColor="#000000"
+                    android:textSize="8pt"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/restauranticon25"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="$10 Off"
+                    android:textColor="#000000"
+                    android:textSize="8pt"
+                    android:gravity="center|right"
+                    android:paddingRight="10dp"/>
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:gravity="center"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingTop="20dip"
+                android:background="#EEEEEE">
+
+                <TableRow
+                    android:id="@+id/footer"
+                    android:weightSum="4">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip">
+                        <ImageButton
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:background="@drawable/shareicon"
+                            android:layout_gravity="center"
+                            android:id="@+id/icon1"/>
+                        <TextView
+                            android:id="@+id/shareText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/share"
+                            android:gravity="center"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+                        <ImageButton
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:background="@drawable/moneybagicon"
+                            android:layout_gravity="center"
+                            android:id="@+id/icon2"/>
+                        <TextView
+                            android:id="@+id/moneyText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/money"
+                            android:gravity="center"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+                        <ImageButton
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:layout_gravity="center"
+                            android:background="@drawable/walleticon"
+                            android:id="@+id/walletButton"/>
+                        <TextView
+                            android:id="@+id/walletText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/wallet"
+                            android:gravity="center"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip">
+                        <ImageButton
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:background="@drawable/homeicon"
+                            android:id="@+id/homeButton"/>
+                        <TextView
+                            android:id="@+id/homeText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/share"
+                            android:gravity="center"
+                            android:layout_gravity="center"/>
+                        <!--android:src="@drawable/share"/>-->
+                    </LinearLayout>
+                    <!--<LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal">
+                        <ImageButton
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:id="@+id/icon4"
+                            android:src="@drawable/homeicon"/>
+                    </LinearLayout>-->
+
+                </TableRow>
+            </TableLayout>
+            <!--<TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:gravity="center"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingTop="20dip"
+                android:background="#EEEEEE">
+
+                <TableRow>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip">
+                        <ImageButton
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:background="@drawable/shareicon"
+                            android:id="@+id/shareButton"/>
+                        <TextView
+                            android:id="@+id/shareText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/share"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+                        <ImageButton
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:background="@drawable/moneybagicon"
+                            android:id="@+id/moneyButton"/>
+                        <TextView
+                            android:id="@+id/moneyText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/money"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+                        <ImageButton
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:background="@drawable/walleticon"
+                            android:id="@+id/walletButton"/>
+                        <TextView
+                            android:id="@+id/walletText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/wallet"
+                            android:gravity="center"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+                        <ImageButton
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:background="@drawable/homeicon"
+                            android:id="@+id/homeButton"/>
+                        <TextView
+                            android:id="@+id/homeText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/wallet"
+                            android:gravity="center"/>
+                    </LinearLayout>
+
+                </TableRow>
+            </TableLayout>-->
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/profileIcon"
+            android:layout_width="165px"
+            android:layout_height="165px"
+            android:layout_centerInParent="true"
+            android:layout_alignBottom="@id/header"
+            android:layout_marginBottom="-32dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/profileicon">
+        </ImageButton>
+
+    </RelativeLayout>
+</ScrollView>

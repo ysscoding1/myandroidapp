@@ -1,0 +1,365 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/cap1bank2bg"
+    tools:context="dnr.capitalone.com.dealandreward.RewardsInfoActivity">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="500px"
+            android:layout_height="250px"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image1"
+            android:src="@drawable/cap1whitelogotransparent">
+        </ImageView>
+    </LinearLayout>
+    <!--<RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="500px"
+                android:layout_height="150px"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/image1"
+                android:src="@drawable/cap1whitelogotransparent">
+            </ImageView>
+            <ImageButton
+                android:id="@+id/profileIcon"
+                android:layout_width="105px"
+                android:layout_height="105px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/profileicon"/>
+    </RelativeLayout>-->
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_below="@id/header"
+        android:layout_marginTop="20px">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/totalEarnedText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:text="Total Earned"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/totalEarnedLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/earnedDollarAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:textSize="35sp"
+                    android:textColor="#FFFFFF"/>
+                <TextView
+                    android:id="@+id/earnedDollarSign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5sp"
+                    android:layout_toLeftOf="@id/earnedDollarAmount"
+                    android:layout_alignTop="@id/earnedDollarAmount"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:text="$"/>
+                <TextView
+                    android:id="@+id/earnedCentAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4sp"
+                    android:layout_toRightOf="@id/earnedDollarAmount"
+                    android:layout_alignTop="@id/earnedDollarAmount"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"/>
+            </RelativeLayout>
+            <!--
+            <ImageButton
+                android:id="@+id/totalEarnedInfoButton"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:background="@drawable/infoicon"
+                android:layout_marginRight="100px"
+                android:layout_gravity="right"/>-->
+
+
+
+            <!-- Separator ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <View
+                android:id="@+id/separator"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"/>
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+            <LinearLayout
+                android:id="@+id/firstLevelRewardsLayout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/firstLevelRewardsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="First Level Rewards"
+                    android:textColor="#FFFFFF"
+                    android:textSize="9pt"
+                    android:gravity="center"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/firstLevelRewardsAmount"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#FFFFFF"
+                    android:textSize="9pt"
+                    android:gravity="center|right"
+                    android:paddingRight="10dp"/>
+            </LinearLayout>
+
+            <!-- Separator ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <View
+                android:id="@+id/separator1"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"/>
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+            <LinearLayout
+                android:id="@+id/secondLevelRewardsLayout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/secondLevelRewardsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Second Level Rewards"
+                    android:textColor="#FFFFFF"
+                    android:textSize="9pt"
+                    android:gravity="center"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/secondLevelRewardsAmount"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#FFFFFF"
+                    android:textSize="9pt"
+                    android:gravity="center|right"
+                    android:paddingRight="10dp"/>
+            </LinearLayout>
+
+            <!-- Separator ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <View
+                android:id="@+id/separator2"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"/>
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+            <LinearLayout
+                android:id="@+id/thirdLevelRewardsLayout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/thirdLevelRewardsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Third Level Rewards"
+                    android:textColor="#FFFFFF"
+                    android:textSize="9pt"
+                    android:gravity="center"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/thirdLevelRewardsAmount"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#FFFFFF"
+                    android:textSize="9pt"
+                    android:gravity="center|right"
+                    android:paddingRight="10dp"/>
+            </LinearLayout>
+
+            <!-- Separator ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <View
+                android:id="@+id/separator3"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"/>
+            <!--<LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="#E6E6E6">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:layout_marginTop="50px"
+                    android:background="#FFFFFF"
+                    android:weightSum="2">
+                    <TextView
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100px"
+                        android:layout_marginRight="100px"
+                        android:layout_marginTop="20px"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:textSize="13sp"
+                        android:textColor="#000000"
+                        android:text="Own Purchases"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:id="@+id/firstLevelRewardsAmount"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="100px"
+                        android:layout_marginRight="100px"
+                        android:layout_marginTop="20px"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="right"
+                        android:textSize="13sp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:background="#FFFFFF"
+                    android:weightSum="2">
+                    <TextView
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100px"
+                        android:layout_marginRight="100px"
+                        android:layout_marginTop="20px"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:textSize="13sp"
+                        android:textColor="#000000"
+                        android:text="Friends' Purchases"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:id="@+id/secondLevelRewardsAmount"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="100px"
+                        android:layout_marginRight="100px"
+                        android:layout_marginTop="20px"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="right"
+                        android:textSize="13sp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:layout_marginBottom="50px"
+                    android:background="#FFFFFF"
+                    android:weightSum="2">
+                    <TextView
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100px"
+                        android:layout_marginRight="100px"
+                        android:layout_marginTop="20px"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:textSize="13sp"
+                        android:textColor="#000000"
+                        android:text="Friends of Friends Purchases"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:id="@+id/thirdLevelRewardsAmount"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="100px"
+                        android:layout_marginRight="100px"
+                        android:layout_marginTop="20px"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="right"
+                        android:textSize="13sp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+
+            </LinearLayout>-->
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

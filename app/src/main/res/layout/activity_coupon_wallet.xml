@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="dnr.capitalone.com.dealandreward.WalletActivity"
+        android:background="#EEEEEE">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/mainLevelWallet"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:gravity="center"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingTop="20dip"
+                android:background="#EEEEEE">
+
+                <TableRow>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip">
+                        <ImageButton
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:background="@drawable/shareicon"
+                            android:id="@+id/shareButton"/>
+                        <TextView
+                            android:id="@+id/shareText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/share"
+                            android:gravity="center"/>
+                        <!--android:src="@drawable/share"/>-->
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+                        <ImageButton
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:background="@drawable/moneybagicon"
+                            android:id="@+id/moneyButton"/>
+                        <TextView
+                            android:id="@+id/moneyText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/money"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+                        <ImageButton
+                            android:id="@+id/homeButton"
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:background="@drawable/homeicon"/>
+                        <TextView
+                            android:id="@+id/homeText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/home"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <!--<LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal">
+                        <ImageButton
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:id="@+id/icon4"
+                            android:src="@drawable/homeicon"/>
+                    </LinearLayout>-->
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

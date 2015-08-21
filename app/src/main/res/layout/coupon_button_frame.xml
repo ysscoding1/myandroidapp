@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/couponButtonFrameLayout"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="20pt"
+    android:layout_gravity="center_horizontal"
+    android:background="#FAFAFA">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/couponButtonFrameMerchantName"
+        android:text="T.G.I. Fridays"
+        android:textColor="#000000"
+        android:textSize="8pt"
+        android:gravity="center"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/couponButtonFrameDescription"
+        android:text="$5 Off"
+        android:textColor="#000000"
+        android:textSize="8pt"
+        android:gravity="center|right"
+        android:paddingRight="10dp"/>
+</LinearLayout>

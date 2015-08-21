@@ -1,0 +1,388 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="dnr.capitalone.com.dealandreward.WalletActivity"
+        android:background="#EEEEEE">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp">
+            <Button
+                android:id="@+id/hmButton"
+                android:layout_width="1000px"
+                android:layout_height="200px"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/hm_icon"
+                android:text="@string/hm"
+                android:paddingTop="10px"
+                android:gravity="right"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layerType="software"
+                android:background="@drawable/hm_coupon_top">
+            </Button>
+
+            <RelativeLayout
+                android:layout_width="1000px"
+                android:layout_height="200px"
+                android:layout_gravity="center"
+                android:background="@drawable/coupon_bottom">
+                <ImageView
+                    android:id="@+id/hmclock1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"/>
+                <TextView
+                    android:id="@+id/hmText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="May 24 to July 24"
+                    android:layout_toEndOf="@id/hmclock1"/>
+                <ImageView
+                    android:id="@+id/hmclock2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_below="@id/hmclock1"/>
+                <TextView
+                    android:id="@+id/hmText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="Any Purchase of $50 or more"
+                    android:layout_toEndOf="@id/hmclock2"
+                    android:layout_below="@id/hmText1"/>
+            </RelativeLayout>
+
+            <!-- STARBUCKS BUTTON ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+            <Button
+                android:id="@+id/starbucksButton"
+                android:layout_marginTop="15dp"
+                android:layout_width="1000px"
+                android:layout_height="200px"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/starbucks_icon"
+                android:text="@string/starbucks"
+                android:paddingTop="10px"
+                android:gravity="right"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layerType="software"
+                android:background="@drawable/starbucks_coupon_top">
+            </Button>
+
+            <RelativeLayout
+                android:layout_width="1000px"
+                android:layout_height="200px"
+                android:layout_gravity="center"
+                android:background="@drawable/coupon_bottom">
+                <ImageView
+                    android:id="@+id/starbucksclock1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/pricetag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"/>
+                <TextView
+                    android:id="@+id/starbucksText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="On Sale"
+                    android:textColor="#00AB39"
+                    android:layout_toEndOf="@id/starbucksclock1"/>
+                <ImageView
+                    android:id="@+id/starbucksclock2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_below="@id/starbucksclock1"/>
+                <TextView
+                    android:id="@+id/starbucksText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="May 24 to July 24"
+                    android:layout_toEndOf="@id/starbucksclock2"
+                    android:layout_below="@id/starbucksText1"/>
+            </RelativeLayout>
+
+            <!-- Walmart Button ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <Button
+                android:id="@+id/walmartButton"
+                android:layout_marginTop="15dp"
+                android:layout_width="1000px"
+                android:layout_height="200px"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/walmart_icon"
+                android:text="@string/walmart"
+                android:paddingTop="10px"
+                android:gravity="right"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layerType="software"
+                android:background="@drawable/walmart_coupon_top">
+            </Button>
+
+            <RelativeLayout
+                android:layout_width="1000px"
+                android:layout_height="200px"
+                android:layout_gravity="center"
+                android:background="@drawable/coupon_bottom">
+                <ImageView
+                    android:id="@+id/walmartclock1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"/>
+                <TextView
+                    android:id="@+id/walmartText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="May 24 to July 24"
+                    android:layout_toEndOf="@id/walmartclock1"/>
+                <ImageView
+                    android:id="@+id/walmartclock2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_below="@id/walmartclock1"/>
+                <TextView
+                    android:id="@+id/walmartText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="Any Purchase of $100 or more"
+                    android:layout_toEndOf="@id/walmartclock2"
+                    android:layout_below="@id/walmartText1"/>
+            </RelativeLayout>
+
+            <!-- Pizza Hut ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <Button
+                android:id="@+id/pizzahutButton"
+                android:layout_marginTop="15dp"
+                android:layout_width="1000px"
+                android:layout_height="200px"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/pizzahut_icon"
+                android:text="@string/pizzahut"
+                android:paddingTop="10px"
+                android:gravity="right"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layerType="software"
+                android:background="@drawable/pizzahut_coupon_top">
+            </Button>
+
+            <RelativeLayout
+                android:layout_width="1000px"
+                android:layout_height="200px"
+                android:layout_gravity="center"
+                android:background="@drawable/coupon_bottom">
+                <ImageView
+                    android:id="@+id/pizzahutclock1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"/>
+                <TextView
+                    android:id="@+id/pizzahutText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="May 24 to July 24"
+                    android:layout_toEndOf="@id/pizzahutclock1"/>
+                <ImageView
+                    android:id="@+id/pizzahutclock2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_below="@id/pizzahutclock1"/>
+                <TextView
+                    android:id="@+id/pizzahutText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="When Ordering Any Large Pizza"
+                    android:layout_toEndOf="@id/pizzahutclock2"
+                    android:layout_below="@id/pizzahutText1"/>
+            </RelativeLayout>
+
+            <!-- Bestbuy Button ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <Button
+                android:id="@+id/bestbuyButton"
+                android:layout_marginTop="15dp"
+                android:layout_width="1000px"
+                android:layout_height="200px"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/bestbuy_icon"
+                android:text="@string/bestbuy"
+                android:paddingTop="10px"
+                android:gravity="right"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layerType="software"
+                android:background="@drawable/bestbuy_coupon_top">
+            </Button>
+
+            <RelativeLayout
+                android:layout_width="1000px"
+                android:layout_height="200px"
+                android:layout_gravity="center"
+                android:background="@drawable/coupon_bottom">
+                <ImageView
+                    android:id="@+id/bestbuyclock1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/pricetag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"/>
+                <TextView
+                    android:id="@+id/bestbuyText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="On Sale"
+                    android:layout_toEndOf="@id/bestbuyclock1"/>
+                <ImageView
+                    android:id="@+id/bestbuyclock2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_below="@id/bestbuyclock1"/>
+                <TextView
+                    android:id="@+id/bestbuyText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="May 24 to July 24"
+                    android:layout_toEndOf="@id/bestbuyclock2"
+                    android:layout_below="@id/bestbuyText1"/>
+            </RelativeLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:gravity="center"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingTop="20dip"
+                android:background="#EEEEEE">
+
+                <TableRow>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip">
+                        <ImageButton
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:background="@drawable/shareicon"
+                            android:id="@+id/shareButton"/>
+                        <TextView
+                            android:id="@+id/shareText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/share"
+                            android:gravity="center"/>
+                        <!--android:src="@drawable/share"/>-->
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+                        <ImageButton
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:background="@drawable/moneybagicon"
+                            android:id="@+id/moneyButton"/>
+                        <TextView
+                            android:id="@+id/moneyText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/money"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+                        <ImageButton
+                            android:id="@+id/homeButton"
+                            android:layout_width="200px"
+                            android:layout_height="150px"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:background="@drawable/homeicon"/>
+                        <TextView
+                            android:id="@+id/homeText"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:text="@string/home"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <!--<LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal">
+                        <ImageButton
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:id="@+id/icon4"
+                            android:src="@drawable/homeicon"/>
+                    </LinearLayout>-->
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="dnr.capitalone.com.dealandreward.WalletActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/mainLevel"
+        android:weightSum="1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:gravity="center"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip" >
+
+        <TableRow>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+                <ImageView
+                    android:layout_width="500px"
+                    android:layout_height="250px"
+                    android:id="@+id/image1"
+                    android:src="@drawable/c1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="500px"
+                    android:layout_height="300px"
+                    android:id="@+id/text1"
+                    android:text="@string/dealNRewardHeader"
+                    android:textStyle="bold"
+                    android:textColor="#ff00ff"
+                    android:textColorHighlight="#000000"
+                    android:textIsSelectable="false"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:layout_width="300pt"
+                android:layout_height="20pt"
+                android:background="#FAFAFA"
+                android:text="TGIF                        $10 off"
+                android:textSize="10pt"
+                android:id="@+id/tgif"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:layout_width="300pt"
+                android:layout_height="20pt"
+                android:background="#E6E6E6"
+                android:text="Jiffy Lube                   $5off"
+                android:textSize="10pt"
+                android:id="@+id/chilis"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:layout_width="300pt"
+                android:layout_height="20pt"
+                android:background="#FAFAFA"
+                android:text="Applebee's               $5off"
+                android:textSize="10pt"
+                android:id="@+id/applebees"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:layout_width="300pt"
+                android:layout_height="20pt"
+                android:background="#E6E6E6"
+                android:text="Cusine Of India        $10ff"
+                android:textSize="10pt"
+                android:id="@+id/cusineOfIndia"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:gravity="center"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip" >
+
+            <TableRow>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <ImageButton
+                        android:layout_width="300px"
+                        android:layout_height="300px"
+                        android:id="@+id/icon1"
+                        android:src="@drawable/share"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <ImageButton
+                        android:layout_width="300px"
+                        android:layout_height="300px"
+                        android:id="@+id/icon2"
+                        android:src="@drawable/dollar"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <ImageButton
+                        android:layout_width="300px"
+                        android:layout_height="300px"
+                        android:id="@+id/icon3"
+                        android:src="@drawable/wallet"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <ImageButton
+                        android:layout_width="300px"
+                        android:layout_height="300px"
+                        android:id="@+id/icon4"
+                        android:src="@drawable/homeicon"/>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>

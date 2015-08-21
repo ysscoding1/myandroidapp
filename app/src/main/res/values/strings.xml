@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="app_name">DealAndReward</string>
+        <string name="hello_world">Hello world!</string>
+        <string name="action_settings">Settings</string>
+        <string name="dealNRewardHeader">Deal$ \'n Reward$</string>
+        <string name="title_activity_coupon">CouponActivity</string>
+        <string name="restaurant_activity_coupon">RestaurantCouponActivity</string>
+        <string name="retailer_activity_coupon">RetailerCouponActivity</string>
+        <string name="service_activity_coupon">ServiceCouponActivity</string>
+        <string name="other_activity_coupon">OtherCouponActivity</string>
+        <string name="title_activity_selected_coupon">SelectedCoupon</string>
+        <string name="title_activity_wallet">WalletActivity</string>
+        <string name="title_activity_money_earned">MoneyEarnedActivity</string>
+        <string name="title_activity_rewards_info">RewardsInfoActivity</string>
+        <string name="title_activity_reward_redeem">RewardRedeemActivity</string>
+        <string name="title_activity_user_profile">UserProfileActivity</string>
+        <string name="title_activity_enlarged_coupon">EnlaredCouponActivity</string>
+        <string name="restaurants">Restaurants</string>
+        <string name="retailers">Retailers</string>
+        <string name="services">Services</string>
+        <string name="other">Other</string>
+        <string name="share">Share</string>
+        <string name="money">Money</string>
+        <string name="wallet">Wallet</string>
+        <string name="home">Home</string>
+        <string name="rewards">Rewards</string>
+        <string name="clipCoupon">Clip Coupon</string>
+        <string name="hm">$20 off\n H&amp;M</string>
+        <string name="starbucks">$10 off\n Starbucks</string>
+        <string name="walmart">$30 off\n Walmart</string>
+        <string name="pizzahut">Free Breadsticks\n Pizza Hut</string>
+        <string name="bestbuy">$20 off\n Bestbuy</string>
+    <string name="title_activity_dnrlogin">DNRLoginActivity</string>
+</resources>
